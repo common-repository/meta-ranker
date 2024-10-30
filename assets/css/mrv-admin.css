@@ -1,0 +1,164 @@
+/**
+ * ---------- TABLES ----------
+ *
+ * @format
+ */
+
+/*----- basics -----*/
+table.mrv_table_wrap {
+  border-collapse: collapse;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+
+  max-width: 2000px;
+  width: 100%;
+
+  margin: 10px auto 20px auto;
+}
+
+
+/*----- table headings -----*/
+.mrv_table_head th {
+  background-color: #aecbeb;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*----- table data (a cell) -----*/
+.mrv_table_body td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+#mrv_styles_form {
+  padding: 20px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+#atp_form{
+background: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mrv-select {
+  display: inline !important;
+  font-size: 14px;
+  min-width: 10rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  width: 350px;
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 10px 5px;
+}
+
+.atp-label {
+ font-size:15px ;
+}
+
+.atp-input {
+  width: 40%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #c70808;
+}
+
+#atp_save{
+  background: green;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+#mrv_save_style {
+  display: inline !important;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+  width: 127px;
+  height: 40px;
+  background: #3858e9;
+  border: 1px solid #3858e9;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+#mrv_save_style1 {
+  background: blue;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#mrv_iframe_container {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mrv-iframe {
+  flex: 1;
+  height: 500px;
+  border: none;
+}
+
+.mrv-image-wrap {
+  width: 100px;
+}
+.mrv-image-wrap img {
+  width: 100%;
+}
+
+.mrv-wrap-cont {
+  width: calc(100% - 120px);
+}
+
+.csf-welcome-wrap .csf--col,
+.csf-welcome-cols .csf--col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left !important;
+}
+
+.csf-welcome-cols .cpmwp_modal-toggle {
+  margin: 0 0 0 auto;
+}
+
+.csf-welcome-cols .cpmwp_modal-toggle a {
+  text-decoration: none;
+}
